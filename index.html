@@ -8,26 +8,9 @@
     <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <style>
-    /* width */
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+    .style::-webkit-scrollbar{
+        display: none;
+    }
 </style>
 <body>
     <div class="container pt-5 mt-4 px-1" style="background: #444141; width:390px; border-radius: 50px; position: relative; height: 844px;">
@@ -66,9 +49,9 @@
         
         
 
-        <div class="container bg-white  px-1"
+        <div class="container bg-white  px-1 style"
          style="border-top-left-radius: 50px; border-top-right-radius: 50px; position: relative; top: 120px; height: 595px;
-          overflow: hidden; overflow-y: auto; ">
+          overflow-x: hidden; overflow-y: scroll; ">
             <div class="row px-4">
 
                 <div class="col-12 d-flex justify-content-between mt-3 mb-3 rounded-pill align-items-center "
@@ -201,7 +184,7 @@
             
             
         </div>
-        <div class="container d-flex align-items-center justify-content-center" style=" width: 380px; position: absolute; bottom: 13px; height: 56px;background: #FAF5F5;  border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; ">
+        <div class="container d-flex align-items-center justify-content-center" style=" width: 380px; position: absolute; bottom: 15px; height: 56px;background: #FAF5F5;  border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; ">
             <div class="row w-100 justify-content-between">
 
                 <div class="col-3 d-flex align-items-center justify-content-center">
